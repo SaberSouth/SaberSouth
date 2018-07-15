@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', 'Roboto', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -18,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Khula', 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ a:focus, a:hover {
 }
 
 #mainNav {
-  font-family: "Montserrat", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -67,7 +67,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-brand {
-  font-weight: 350;
+  font-weight: 400;
 }
 
 #mainNav a {
@@ -138,14 +138,16 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-family: 'Helvetica Neue';
-  font-weight: 350;
+  font-family: 'Khula';
+  font-weight: 800;
   letter-spacing: 3px;
   font-size: 38px;
 }
 
 .masthead .intro-body .intro-text {
   font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {
@@ -334,5 +336,29 @@ img::-moz-selection {
 }
 
 #navbar-name {
-  font-family: "Helvetica Neue", Helvetica;
+  font-weight: bold;
+  font-family: "Titillium Web", Helvetica;
+}
+
+.cta {
+  margin-bottom: 13px;
+}
+
+#navbarResponsive {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-cta {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: #498960;
+  border: 2px solid #498960;
+}
+
+.btn-cta:hover {
+  background-color: #42dca3;
+  color: white;
+  border: 2px solid #42dca3;
 }
