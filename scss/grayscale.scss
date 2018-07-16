@@ -207,11 +207,12 @@ a {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .download-section {
+  padding-bottom: 110px;
   color: white;
   background: url('../images/banner2.jpg') no-repeat center center scroll;
   background-color: black;
@@ -229,8 +230,8 @@ a {
 }
 @media(min-width:992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   #map {
     height: 350px;
@@ -396,4 +397,17 @@ img::-moz-selection {
         color: white;
         border: 2px solid $lightGreen;
     }
+}
+
+.button-slanted {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.button-slanted-content {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  display: inline-block;
 }
