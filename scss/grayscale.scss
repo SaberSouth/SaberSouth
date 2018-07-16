@@ -359,6 +359,7 @@ img::-moz-selection {
 .social-media {
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 #fb {
@@ -399,15 +400,31 @@ img::-moz-selection {
     }
 }
 
-.button-slanted {
-  -ms-transform: skewX(-20deg);
-  -webkit-transform: skewX(-20deg);
-  transform: skewX(-20deg);
+#reviews {
+    padding-top: 0;
 }
 
-.button-slanted-content {
-  -ms-transform: skewX(20deg);
-  -webkit-transform: skewX(20deg);
-  transform: skewX(20deg);
-  display: inline-block;
+.reviews {
+    display: flex;
+    justify-content: center;
+
+    &--review {
+        margin-bottom: 22px;
+    }
+
+    &--stars {
+        margin-bottom: 10px;
+    }
+
+    &--text {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    &--link {
+        font-style: italic;
+    }
+    &--signature {
+        margin-top: 10px
+    }
 }

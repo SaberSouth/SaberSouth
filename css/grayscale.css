@@ -350,6 +350,7 @@ img::-moz-selection {
 .social-media {
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
 }
 
 #fb {
@@ -390,15 +391,32 @@ img::-moz-selection {
   border: 2px solid #42dca3;
 }
 
-.button-slanted {
-  -ms-transform: skewX(-20deg);
-  -webkit-transform: skewX(-20deg);
-  transform: skewX(-20deg);
+#reviews {
+  padding-top: 0;
 }
 
-.button-slanted-content {
-  -ms-transform: skewX(20deg);
-  -webkit-transform: skewX(20deg);
-  transform: skewX(20deg);
-  display: inline-block;
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews--review {
+  margin-bottom: 22px;
+}
+
+.reviews--stars {
+  margin-bottom: 10px;
+}
+
+.reviews--text {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.reviews--link {
+  font-style: italic;
+}
+
+.reviews--signature {
+  margin-top: 10px;
 }
