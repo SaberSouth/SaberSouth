@@ -163,7 +163,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 50px;
+    font-size: 38px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
@@ -204,6 +204,8 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
 }
 
 #map {
@@ -338,6 +340,8 @@ img::-moz-selection {
 #navbar-name {
   font-weight: bold;
   font-family: "Titillium Web", Helvetica;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .cta {
