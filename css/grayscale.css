@@ -67,7 +67,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-brand {
-  font-weight: 400;
+  font-weight: bold;
 }
 
 #mainNav a {
@@ -152,7 +152,7 @@ a:focus, a:hover {
 
 @media (max-width: 600px) {
   .masthead {
-    padding: 150px 0;
+    padding: 130px 0;
     background: url("../images/BestPic-mobile.jpg") no-repeat bottom center scroll;
   }
 }
@@ -297,18 +297,40 @@ img::-moz-selection {
 }
 
 .product-features {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+}
+
+.product-features--list-container {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.product-features--list {
   list-style-type: none;
   padding-left: 0;
 }
 
 .product-features--list-item {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-.stockist--list-item {
-  margin-bottom: 10px;
-  font-size: 16px;
+@media only screen and (max-width: 768px) {
+  .product-features {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+  .product-features--list-container {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+    padding-bottom: 40px;
+  }
 }
 
 .image-container {

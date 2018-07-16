@@ -3,6 +3,7 @@
 
 $green: #498960;
 $lightGreen: #42dca3;
+$offWhite: #f3f3f3;
 
 body {
   font-family: 'Titillium Web', 'Roboto', Helvetica, Arial, sans-serif;
@@ -81,7 +82,7 @@ a {
     border: 1px solid white;
   }
   .navbar-brand {
-    font-weight: 400;
+    font-weight: bold;
   }
   a {
     color: white;
@@ -164,7 +165,7 @@ a {
     }
 }
   @media(max-width: 600px) {
-      padding: 150px 0;
+      padding: 130px 0;
       background: url('../images/BestPic-mobile.jpg') no-repeat bottom center scroll;
   }
   @media(min-width:768px) {
@@ -310,18 +311,40 @@ img::-moz-selection {
 
 // Custom stylesheet
 .product-features {
-    list-style-type: none;
-    padding-left: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
 
+    &--list-container {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $offWhite;
+        color: black;
+    }
+    &--list {
+        list-style-type: none;
+        padding-left: 0;
+    }
     &--list-item {
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 17px;
+        font-weight: bold;
     }
 }
-.stockist--list-item {
-    margin-bottom: 10px;
-    font-size: 16px;
+
+@media only screen and (max-width: 768px) {
+    .product-features {
+        -webkit-clip-path: none;
+        clip-path: none;
+        &--list-container {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+            clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+            padding-bottom: 40px;
+        }
+    }
 }
+
 .image-container {
     margin-bottom: 24px;
 }
