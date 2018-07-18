@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../images/banner.jpg") no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/banner.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -142,7 +142,6 @@ a:focus, a:hover {
   font-weight: 800;
   letter-spacing: 3px;
   font-size: 38px;
-  background: rgba(0, 0, 0, 0.4);
   padding-top: 10px;
 }
 
@@ -155,7 +154,7 @@ a:focus, a:hover {
 @media (max-width: 600px) {
   .masthead {
     padding: 130px 0;
-    background: url("../images/BestPic-mobile.jpg") no-repeat bottom center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BestPic-mobile.jpg") no-repeat bottom center scroll;
   }
 }
 

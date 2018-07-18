@@ -142,7 +142,7 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../images/banner.jpg') no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/banner.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -157,7 +157,6 @@ a {
       font-weight: 800;
       letter-spacing: 3px;
       font-size: 38px;
-      background: rgba(0,0,0,.4);
       padding-top: 10px;
     }
     .intro-text {
@@ -168,7 +167,7 @@ a {
 }
   @media(max-width: 600px) {
       padding: 130px 0;
-      background: url('../images/BestPic-mobile.jpg') no-repeat bottom center scroll;
+      background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/BestPic-mobile.jpg') no-repeat bottom center scroll;
   }
   @media(max-width: 373px) {
       padding: 120px 0;
