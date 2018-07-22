@@ -433,8 +433,12 @@ img::-moz-selection {
   align-items: center;
 }
 
-.brand-container--svg {
+.svg {
   height: 38px;
   width: 38px;
   margin-right: 10px;
+}
+
+.svg--main, .svg--second {
+  fill: white;
 }
