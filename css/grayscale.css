@@ -52,7 +52,7 @@ a:focus, a:hover {
 }
 
 #mainNav {
-  font-family: "Titillium Web", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -370,7 +370,7 @@ img::-moz-selection {
 
 #navbar-name {
   font-weight: bold;
-  font-family: "Titillium Web", Helvetica;
+  font-family: 'Titillium Web', Helvetica;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -426,4 +426,15 @@ img::-moz-selection {
 
 .reviews--signature {
   margin-top: 10px;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-container--svg {
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
 }

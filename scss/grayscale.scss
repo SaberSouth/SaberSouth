@@ -305,6 +305,7 @@ img::-moz-selection {
     background: transparent;
 }
 // Custom stylesheet
+
 .product-features {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
     clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
@@ -426,5 +427,16 @@ img::-moz-selection {
 
     &--signature {
         margin-top: 10px;
+    }
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+
+    &--svg {
+        height: 38px;
+        width: 38px;
+        margin-right: 10px;
     }
 }
